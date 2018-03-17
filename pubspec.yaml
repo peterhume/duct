@@ -1,11 +1,10 @@
 name: duct
 version: 0.0.1
-author: Petr Hosek
+author: Petr Hosek (modifications by Peter Hume)
 description: socket.io in Dart
-homepage: http://github.com/petrhosek/duct
+homepage: http://github.com/peterhume/duct
 dependencies:
-  unittest: '>=0.4.3'
-  benchmark_harness: '>=1.0.0 <2.0.0'
-  logging: '>=0.4.3'
-  redis_client:
-    git: git://github.com/dartist/redis_client.git
+  unittest: ^0.12.3
+  benchmark_harness: ^1.0.4
+  logging: ^0.11.3+1
+  redis_client: ^0.1.16
